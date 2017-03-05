@@ -1,0 +1,272 @@
+
+
+
+html
+{
+    background-image: url("./img/bg.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+body {
+      width: 720px;
+      height:1820px;
+      margin: auto;
+      background-image:url("./img/full.jpg");
+    }
+
+
+p{
+    color: white;
+    margin: 20px;
+}
+
+h1{
+    color: white;
+    font-weight: 30;
+    margin: 5px auto 5px auto;
+}
+
+h2{
+    color: white;
+    font-weight: 20;
+    width: 80%;
+    margin: 1px auto 1px auto;
+}
+
+
+
+#h5Update{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Ligne jaune a modifier pour tenir compte des differents types */
+hr {
+    color: red;
+    background-color: yellow;
+    height: 5px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+#hrDyn{
+    background-color: yellow;
+    height: 3px;
+
+    width: 80%;
+    margin: auto;
+}
+
+/* classe liste items div gauche avec image diamond */
+.etqLi1{
+    color: white;
+    display: list-item;
+    list-style-image: url("./img/bullet.gif");
+}
+
+/* classe liste items div droite avec image etoile */
+.etqLi2{
+    color: white;
+    display: list-item;
+    list-style-image: url("./img/star1.jpg");
+}
+
+/* classe liste items div droite sans  image  */
+.etqLi3{
+    color: white;
+    list-style-type: none;
+}
+
+.etqOl1{
+    color: white;
+    display: list-item;
+}
+
+.etqLeg1{
+    border-left-style: solid;
+    border-color: yellow;
+    border-left-width: 3px;
+    width: 90%;
+    margin: auto;
+}
+
+.etqdt{
+    background-color: yellow;
+    width: 100%;
+    margin: auto;
+}
+
+.etqdt80{
+    background-color: yellow;
+    width: 100%;
+    margin: auto;
+}
+
+.img_flo_gch{
+    float: left;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.img_flo_drt{
+    float: right;
+    margin: 5px auto;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.img_titre_droite{
+    float: left;
+    margin: 5px auto;
+    height: 385px;
+}
+
+.img_pied{
+    float: left;
+    margin: 185px 0px;
+    height: 241px;
+}
+
+
+.etqLeg1 p{
+    font-size: small;
+}
+
+.etqLeg1 span{
+    color: yellow;
+}
+
+
+#left_side{
+    width:404px;
+    float: left;
+}
+
+#right_side{
+    width:316px;
+    float: right;
+}
+
+#menuGch{
+    width: 80%;
+    margin: auto;
+
+}
+
+#menuGch2{
+    width: 80%;
+    margin: auto;
+    height: 265px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 3px;
+}
+
+
+#contLinkWeb{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#contLink{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+#contWeb{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.etqLi4{
+    color: white;
+    margin: auto;
+    background-color:darkgray;
+    border-top-style: solid;
+    border-width: 2px;
+
+    list-style-type: none;
+}
+
+#contLink h5{
+    color: white;
+    width:50%;
+    margin: auto;
+}
+
+#contWeb h5{
+    color: white;
+    width:50%;
+    margin: auto;    
+}
+
+/* sous l'image*/
+#centre{
+    /*float: left;*/
+    height:440px;
+    width:282px;
+    margin: 0px 10px 0px 21px;
+    padding: 0px 10px;
+    /* a voir background-size: */ 
+    background-image: url("./img/title.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#titre{
+    margin: 0px 20px;
+
+}
+
+#bourrage{
+    height: 147px;
+}
+
+#textGch{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 3px;
+}
+
+#hrT10{
+    margin-top: 60px;
+
+    background-color: yellow;
+    height: 5px;
+    width: 80%;
+    text-align: center;
+    clear: both;
+}
+
+#etqTex5{
+    width: 60%;
+    color: white;
+    margin: auto;
+    background-color:dimgray;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+
+#pLegFree{
+    font-size: 60px;
+    margin:0px 0px -110px;
+    padding:60px 10px;
+}
+
+#pLegStyle{
+    font-size: 60px;
+    padding:0px 10px;
+    margin: 25px -20px;
+}
